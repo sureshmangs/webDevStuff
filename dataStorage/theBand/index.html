@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Band-Official</title>
+	<link rel="icon" type="image/icon" href="images/icon.png">
+<meta charset="utf-8">
+<meta name="description" content="Official website of the the band">
+<meta name="keywords" content="TheBand, Band,The three, Artist, Musicians">
+<meta name="author" content="Suresh Mangs">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--free font 5 awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!--bootstrap stuff-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="band.css">
+</head>
+<body>
+	<!--navigation start-->
+<nav class="navbar navbar-inverse" id="nb-nav">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand " href="#" >TheBand</a>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Band</a></li>
+			<li><a href="#">Tour</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!--navigation end-->
+<!--slideshow start-->
+<div class="container-fluid" id="nb-slide" ">
+	<div id="myCarousel" class="carousel slide " data-ride="carousel">
+		<!--indicators start-->
+		<ol class="carousel-indicators" >
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<!--indicators end-->
+		<!--images for slideshow start-->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/img_band_la.jpg" alt="Los Angeles" style="width: 100%;">
+			</div>
+			<div class="item">
+				<img src="images/img_band_chicago.jpg" alt="Chicago" style="width:100%;">
+			</div>
+			<div class="item">
+				<img src="images/img_band_ny.jpg" alt="New York" style="width:100%;">
+			</div>
+		</div>
+		<!--images for slideshow end-->
+		<!--left and right control  start-->
+		<a href="#myCarousel" class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a href="#myCarousel" class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		<!--left and right control end-->
+	</div>
+</div>
+<!--slideshow end-->
+	<!--info about band start-->
+<div class="container">
+	<div class="text-center">
+		<h2 style="color:#000000;">The Band</h2>
+		<p style="color:#666970;">We love music</p>
+		<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-justify"><p style="font-size: 1.25em">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+	</div>
+</div>
+<!--info about band end-->
+<!--band members start-->
+<div class="container-fluid" style="background-color: #F1F1F1; margin-top:2%; padding-top: 2%;">
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="thumbnail">
+				<p style="font-size:1.25em;" class="text-center">John</p>
+				<img src="images/img_bandmember.jpg" class="img-responsive" alt="John" style="width: 100%;">
+				<div class="caption text-center"><p style="font-size:1.25em;" >John is the smartest</p></div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="thumbnail">
+				<p style="font-size:1.25em;"  class="text-center">Paul</p>
+				<img src="images/img_bandmember.jpg" alt="Paul" class="img-responsive" style="width: 100%;">
+				<div class="caption text-center"><p style="font-size:1.25em;" >Paul is the prettiest</p></div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="thumbnail">
+				<p style="font-size:1.25em;"  class="text-center">Ringo</p>
+				<img src="images/img_bandmember.jpg" alt="Ringo" class="img-responsive" style="width: 100%;">
+				<div class="caption text-center"><p style="font-size:1.25em;" >Ringo is the funniest</p></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--band members end-->
+<!--footer start-->
+<!-- Footer -->
+<footer class="page-footer text-center" id="nb-footer">
+  <div class="container">
+    <div class="row">
+          <a href="http://www.facebook.com/" class="nb-space"><i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+          <a href="https://twitter.com/" class="nb-space"> <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+           <a href="https://aboutme.google.com/u/0/" class="nb-space"><i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+           <a href="https://in.linkedin.com/" class="nb-space"><i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+          <a href="https://www.instagram.com/accounts/login/" class="nb-space"><i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+          <a href="https://in.pinterest.com/" class="nb-space"> <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i></a>
+    </div>
+  </div>
+</footer>
+<!--footer end-->
+</body>
+</html>
