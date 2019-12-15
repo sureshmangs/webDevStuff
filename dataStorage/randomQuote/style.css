@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+body {
+	background-image: url('images/backg.jpeg');
+	background-repeat: no-repeat;
+  	background-size: cover;
+	color: #dcbdbd;
+}
+
+hr {
+	border-color: #f3fbfa;
+}
+
+#date, #time {
+	font-family: 'Lilita One', cursive;
+	font-size: 2em;
+}
+
+#quoteDisplay {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5em;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#authorDisplay {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.25em;
+	color: #f3fbfa;
+}
